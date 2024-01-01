@@ -1,0 +1,118 @@
+/* Reset some default styles */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box to all elements */
+body * {
+    box-sizing: border-box;
+}
+
+/* Set a default font family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Apply responsive styles */
+#box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+#firstimg {
+    max-width: 100%;
+    height: auto;
+}
+
+#aa {
+    font-size: 24px;
+}
+
+#af {
+    font-size: 16px;
+}
+
+#ab {
+    font-size: 18px;
+}
+
+#ad {
+    font-size: 14px;
+}
+
+#line {
+    width: 100%;
+}
+
+#ae {
+    font-size: 14px;
+}
+
+#creationof {
+    font-weight: bold;
+}
+
+/* Add hover effect */
+#box:hover {
+    background-color: cyan;
+}
+
+/* Add a media query for smaller screens (Mobile) */
+@media screen and (max-width: 375px) {
+    #box {
+        padding: 10px;
+    }
+
+    #aa {
+        font-size: 20px;
+    }
+
+    #af {
+        font-size: 14px;
+    }
+
+    #ab {
+        font-size: 16px;
+    }
+
+    #ad {
+        font-size: 12px;
+    }
+
+    #ae {
+        font-size: 12px;
+    }
+}
+
+/* Add a media query for larger screens (Desktop) */
+@media screen and (min-width: 1441px) {
+    #box {
+        max-width: 1200px;
+        padding: 40px;
+        background-color:hsl(216, 50%, 16%);
+        border-radius: 10px;
+    }
+
+    #aa {
+        font-size: 32px;
+    }
+
+    #af {
+        font-size: 18px;
+    }
+
+    #ab {
+        font-size: 22px;
+    }
+
+    #ad {
+        font-size: 16px;
+    }
+
+    #ae {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,103 @@
+/* body{
+    background-color: hsl(217, 54%, 11%);
+} */
+
+body{
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+#card{
+    height: auto;
+    width: 350px;
+    background-color: hsl(216, 50%, 16%)!important;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    /* background-size: cover; */ 
+}
+
+#firstimg{
+    
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.smalldiv{
+    display: flex;
+    justify-content: space-between;
+}
+/* #firstimg:hover{
+    background-position:center ;
+} */
+#a3429{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#eth{
+    color: cyan;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#img1{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#days{
+    color: hsl(215, 51%, 70%);
+}
+#calm{
+    color: hsl(215, 51%, 70%);
+}
+#firstimg:hover{
+    background-color: cyan;
+}
+
+
+@media screen and (max-width: 375px){
+    #card{
+        /* display: block; */
+    }
+
+}
+
+/* @media (min-width:375px) and (min-width:1441px){   
+    #box{
+        display: block;
+    }
+} */
+/* Add a media query for larger screens (Desktop) */
+/* @media screen and (min-width: 1441px) {
+    #box {
+        max-width: 1200px;
+        padding: 40px;
+        background-color:hsl(216, 50%, 16%);
+        border-radius: 10px;
+    }
+
+    #aa {
+        font-size: 32px;
+    }
+
+    #af {
+        font-size: 18px;
+    }
+
+    #ab {
+        font-size: 22px;
+    }
+
+    #ad {
+        font-size: 16px;
+    }
+
+    #ae {
+        font-size: 16px;
+    }
+} */
